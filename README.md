@@ -1,7 +1,17 @@
 # L'atelier de Lou
 
-Site web de L'atelier de Lou
+**« L'atelier de Lou »** website, hosted on Firebase. 
 
-## Déploiement
+## Deployment
 
-firebase deploy
+### Dev environment 
+
+```bash
+firebase deploy --project dev`
+```
+
+### Prod environment 
+
+```bash
+firebase deploy --project prod
+```

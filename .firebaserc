@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "latelierdelou-dev"
+    "default": "latelierdelou-dev",
+    "dev": "latelierdelou-dev",
+    "prod": "latelierdelou-prod"
   }
 }
