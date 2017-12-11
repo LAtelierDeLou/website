@@ -1,0 +1,29 @@
+.homeRow {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.body {
+    color: black
+}
+
+div {
+    color: black;
+}
+
+nav.nav-center ul {
+    text-align: center;
+}
+nav.nav-center ul li {
+    display: inline;
+    float: none;
+}
+nav.nav-center ul li a {
+    display: inline-block;
+}
+
+nav {
+    background-color: #C1A876;
+}
