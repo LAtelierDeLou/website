@@ -9,3 +9,22 @@ body {
     font-family: christmasDay;
     src: url("assets/font.ttf");
 }
+
+.slick-next:before, .slick-prev:before {
+    content: '→';
+    color: transparent;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    border-radius: 16px;
+    height: 32px;
+    width: 32px;
+    display: block;
+}
+
+.slick-next:before{
+    background: white url("/assets/icons/chevron-right.svg") center ;
+    transform: translateX(4px);
+}
+.slick-prev:before{
+    background: white url("/assets/icons/chevron-left.svg") center ;
+    transform: translateX(-16px);
+}

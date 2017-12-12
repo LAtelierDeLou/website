@@ -8,6 +8,14 @@
     flex-direction: column;
 }
 
+:host /deep/ h2 {
+    font-family: christmasDay, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    color: #404040;
+    padding: 0 44px;
+}
+
 main {
     flex: 1 1 auto;
     padding: 16px;

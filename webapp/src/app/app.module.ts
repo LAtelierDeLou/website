@@ -6,8 +6,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
-import {HeaderComponent} from "./header/header.component";
-import {SliderComponent} from "./slider/slider.component";
+import { HeaderComponent } from "./header/header.component";
+import { SliderComponent } from "./slider/slider.component";
+import { CreationsComponent } from './creations/creations.component';
 
 const routes: Routes = [
     // Home
@@ -19,6 +20,14 @@ const routes: Routes = [
     {
         path: 'home',
         component: HomeComponent
+    },
+    {
+        path: 'creations',
+        component: CreationsComponent
+    },
+    {
+        path: 'about',
+        component: ContactComponent
     },
     // // Not Found
     // {
@@ -33,7 +42,8 @@ const routes: Routes = [
         HomeComponent,
         ContactComponent,
         HeaderComponent,
-        SliderComponent
+        SliderComponent,
+        CreationsComponent
     ],
     imports: [
         // Material Angular
