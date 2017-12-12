@@ -15,31 +15,31 @@ main {
     margin: 0 auto;
 }
 
-footer {
-    padding: 16px;
+#construction {
+    padding: 12px;
     font-size: 18px;
     text-align: center;
-    background-color: #C1A876;
-    color: white;
+    background-color: white;
+    color: #C1A876;
 }
 
-footer img {
+#construction img {
     opacity: 0.7;
 }
 
-footer p {
+#construction p {
     margin: 0;
 }
 
-footer span {
+#construction span {
     margin: 0 12px;
 }
 
-footer p * {
+#construction p * {
     vertical-align: middle;
 }
 
-footer p:last-child span {
+#construction p:last-child span {
     font-size: 14px;
     opacity: 0.7;
 }

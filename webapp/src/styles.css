@@ -9,3 +9,7 @@ body {
     font-family: christmasDay;
     src: url("assets/font.ttf");
 }
+
+a {
+    text-decoration: underline;
+}
