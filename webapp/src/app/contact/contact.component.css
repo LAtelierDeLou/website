@@ -5,6 +5,10 @@ h2 {
     color: #404040;
 }
 
+a {
+    text-decoration: underline;
+}
+
 #contact-block {
     display: flex;
     align-items: flex-start;
