@@ -7,7 +7,7 @@
 ### Dev environment 
 
 ```bash
-firebase deploy --project dev`
+firebase deploy --project dev
 ```
 
 ### Prod environment 

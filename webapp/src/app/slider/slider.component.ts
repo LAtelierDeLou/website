@@ -14,7 +14,7 @@ export class SliderComponent implements AfterViewInit {
     }
 
     ngAfterViewInit(): void {
-        const pictures: any = $(this.pictures.nativeElement);
+        const pictures: any = window['$'](this.pictures.nativeElement);
         pictures.slick({
             fade: true,
             dots: true,

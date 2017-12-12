@@ -1,4 +1,3 @@
-
 import { AfterViewInit, Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
@@ -14,7 +13,7 @@ export class CreationsComponent implements AfterViewInit {
     }
 
     ngAfterViewInit(): void {
-        const products: any = $(this.products.nativeElement);
+        const products: any = window['$'](this.products.nativeElement);
         products.slick({
             infinite: true,
             slidesToShow: 1,
