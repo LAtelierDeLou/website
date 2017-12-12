@@ -6,6 +6,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import {HeaderComponent} from "./header/header.component";
+import {SliderComponent} from "./slider/slider.component";
 
 const routes: Routes = [
     // Home
@@ -29,7 +31,9 @@ const routes: Routes = [
     declarations: [
         AppComponent,
         HomeComponent,
-        ContactComponent
+        ContactComponent,
+        HeaderComponent,
+        SliderComponent
     ],
     imports: [
         // Material Angular
