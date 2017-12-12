@@ -10,6 +10,37 @@
 
 main {
     flex: 1 1 auto;
+    padding: 16px;
+    width: 740px;
+    margin: 0 auto;
 }
 
+footer {
+    padding: 16px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #C1A876;
+    color: white;
+}
+
+footer img {
+    opacity: 0.7;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer span {
+    margin: 0 12px;
+}
+
+footer p * {
+    vertical-align: middle;
+}
+
+footer p:last-child span {
+    font-size: 14px;
+    opacity: 0.7;
+}
 

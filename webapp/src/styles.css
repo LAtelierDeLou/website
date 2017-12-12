@@ -1,5 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  background: url("/assets/background.svg");
+    background: url("assets/background.svg");
+    font-family: Roboto, Arial, sans-serif;
+}
+
+@font-face {
+    font-family: christmasDay;
+    src: url("assets/font.ttf");
 }
