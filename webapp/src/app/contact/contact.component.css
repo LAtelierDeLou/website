@@ -3,11 +3,12 @@ a {
 }
 
 #contact-block {
-    display: flex;
+    display: inline-block;
     align-items: flex-start;
 }
 
 #contact-polaroid {
+    width: 176px;
     background-color: white;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
     padding: 8px 8px 44px 8px;
@@ -42,4 +43,18 @@ a {
     font-style: italic;
     font-weight: bold;
     color: #C1A876;
+}
+
+@media (min-width: 325px) and (max-width: 640px) {
+    #contact-list {
+        width: 115%;
+        margin-left: -12%;
+    }
+}
+
+@media (max-width: 325px) {
+    #contact-list {
+        width: 115%;
+        margin-left: -16%;
+    }
 }
